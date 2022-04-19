@@ -1,6 +1,6 @@
 footer {
   width: 100%;
-  height: 40px;
+  height: 45px;
   position: absolute;
   bottom: 0;
   color: #fff;
@@ -9,6 +9,6 @@ footer {
 
 .footer-wrapper {
   margin: 0 auto;
-  padding: 10px;
-  max-width: $max-with;
+  padding: 10px 50px;
+  max-width: $max-width;
 }

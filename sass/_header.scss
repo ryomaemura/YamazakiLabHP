@@ -9,22 +9,19 @@ header {
   display: flex;
   align-items: end;
   margin: 0 auto;
-  padding: 10px;
-  max-width: $max-with;
-}
-
-.title {
-  text-decoration: none;
-
-  &:visited {
-    color: #fff;
-  }
+  padding: 10px 50px;
+  max-width: $max-width;
 }
 
 .header-item {
   margin-right: 30px;
+  text-decoration: none;
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &:visited {
+    color: #fff;
   }
 }
