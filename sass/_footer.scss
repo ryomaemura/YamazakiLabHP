@@ -1,0 +1,14 @@
+footer {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  background-color: #222;
+}
+
+.footer-wrapper {
+  margin: 0 auto;
+  padding: 10px;
+  max-width: $max-with;
+}

@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  background-color: #222;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: end;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: $max-with;
+}
+
+.title {
+  text-decoration: none;
+
+  &:visited {
+    color: #fff;
+  }
+}
+
+.header-item {
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
