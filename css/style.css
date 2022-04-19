@@ -11,6 +11,7 @@ html {
 }
 
 body {
+  position: relative;
   padding-bottom: 45px;
   min-height: 100vh;
   font-size: 1.6rem;
@@ -71,6 +72,30 @@ main {
 
 .main-title {
   margin-bottom: 30px;
+}
+
+.activities-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.activities {
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.activities-title {
+  margin-bottom: 10px;
+}
+
+.activities-content {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  background-color: #eee;
 }
 
 .about-section {
