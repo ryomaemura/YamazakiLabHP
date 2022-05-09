@@ -35,6 +35,7 @@ header {
 .header-item {
   margin-right: 30px;
   text-decoration: none;
+  color: #fff;
 }
 
 .header-item:last-child {
@@ -58,6 +59,10 @@ footer {
   margin: 0 auto;
   padding: 10px 50px;
   max-width: 1200px;
+}
+
+.copyright a {
+  color: #fff;
 }
 
 main {
@@ -86,6 +91,11 @@ main {
   width: 45%;
 }
 
+.activities a {
+  color: #000;
+  text-decoration: none;
+}
+
 .activities-title {
   margin-bottom: 10px;
 }
@@ -95,7 +105,9 @@ main {
   height: 300px;
   text-align: center;
   line-height: 300px;
+  border: 1px solid #000;
   background-color: #eee;
+  object-fit: cover;
 }
 
 .about-section {
