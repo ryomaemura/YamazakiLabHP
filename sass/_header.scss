@@ -26,3 +26,9 @@ header {
     color: #fff;
   }
 }
+
+@media screen and (max-width: $breakpoint) {
+  header {
+    overflow-x: scroll;
+  }
+}

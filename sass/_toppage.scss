@@ -20,11 +20,22 @@
 }
 
 .activities-content {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 300px;
   text-align: center;
   line-height: 300px;
   border: 1px solid #000;
   background-color: #eee;
   object-fit: cover;
+}
+
+@media screen and (max-width: $breakpoint) {
+  .activities-box {
+    display: block;
+  }
+
+  .activities {
+    width: 100%
+  }
 }
